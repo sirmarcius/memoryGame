@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+
+.card {
+  width: 150px;
+  height: 150px;
+  background-image: url(/img/card-back.png);
+  background-size: cover;
+  display: inline-block;
+  text-align: center;
+  font-size: 36px;
+  margin: 20px;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+
+.flipped {
+  transform: rotateY(180deg);
+  background-color: navajowhite;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 70px;
+  margin-top: 10px;
+}
+
+p {
+  text-align: center;
+}
+
+body {
+  background-color: darkgrey;
+}
