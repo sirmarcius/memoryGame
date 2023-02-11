@@ -9,12 +9,12 @@ let card2 = null;
 let numMoves = 0;
 
 const cardImages = {
-  1: '../img/card-front-1.jpg',
-  2: '../img/card-front-2.jpg',
-  3: '../img/card-front-3.jpg',
-  4: '../img/card-front-4.jpg',
-  5: '../img/card-front-5.jpg',
-  6: '../img/card-front-6.jpg',
+  1: '/img/card-front-1.jpg',
+  2: '/img/card-front-2.jpg',
+  3: '/img/card-front-3.jpg',
+  4: '/img/card-front-4.jpg',
+  5: '/img/card-front-5.jpg',
+  6: '/img/card-front-6.jpg',
 };
 
 // Embaralhar as cartas
