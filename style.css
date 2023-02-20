@@ -9,18 +9,19 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  height: 400px;
+  height: 100%;
 }
 
 .card {
-  width: 150px;
-  height: 150px;
+  width: 30%;
+  max-width: 150px;
+  height: auto;
   background-image: url("https://github.com/sirmarcius/memoryGame/blob/main/img/card-back.png?raw=true");
   background-size: cover;
   display: inline-block;
   text-align: center;
-  font-size: 36px;
-  margin: 20px;
+  font-size: 6vw;
+  margin: 1.5vw;
   transform-style: preserve-3d;
   transition: transform 0.5s;
 }
@@ -31,20 +32,22 @@
 }
 
 img {
-  width: 150px;
-  height: 150px;
+  width: 100%;
+  height: auto;
 }
 
 h1 {
   text-align: center;
-  font-size: 70px;
-  margin-top: 10px;
+  font-size: 10vw;
+  margin-top: 2vw;
 }
 
 p {
   text-align: center;
+  font-size: 4vw;
 }
 
 body {
   background-color: darkgrey;
+  font-size: 4vw;
 }
